@@ -1,0 +1,31 @@
+<html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>Rock, Paper, Scissors</title>
+  </head>
+  <body>
+    <h1>Rock, Paper, Scissors</h1>
+    <p>Please select rock, paper, or scissors.</p>
+    <button id="scoreboard-el" onclick="resetScore()">Reset Scoreboard</button>
+    <table>
+        <tr>
+            <td>Player Score</td>
+            <td>Computer Score</td>
+        </tr>
+        <tr>
+            <td id="player-score"></td>
+            <td id="computer-score"></td>
+        </tr>
+    </table>
+    <div>
+        <p id="computer-el"></p>
+        <p id="player-el"></p>
+        <p id="gameplay-el"></p>
+        <button id="rock-el" onclick="playerRock()">Rock</button>
+        <button id="paper-el" onclick="playerPaper()">Paper</button>
+        <button id="scissors-el" onclick="playerScissors()">Scissors</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

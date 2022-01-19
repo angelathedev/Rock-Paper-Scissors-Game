@@ -1,0 +1,11 @@
+table, tr, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 10px
+}
+
+tr, td {
+    background-color: darkcyan;
+    text-align: center;
+}
